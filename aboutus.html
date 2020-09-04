@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Golden Games</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+        <div class="container header_color">
+            <a class="navbar-brand" href="./index.html">
+                <img src="./img/golden.jpeg" width="30" height="30" alt="">
+                <strong style="font-family: Georgia;">Gamingo</strong>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About us</a>
+                    </li>
+
+                    </li>
+                    <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal_login">
+                        Login / Sign-Up
+                    </button>
+                </ul>
+            </div>
+    </nav>
+    </div>
+
+
+    <h1 style="margin-top: 150px; color: #ffffff;">About Us</h1>
+    <div class="about" style="padding-bottom: 50px; margin: 10px">
+        <p>
+            Established in 1977 & headquartered in Mumbai, Shree Jalaram Group has diverse interests from Online
+            Lottery,<br>
+            Real Estate, Beverage, Healthcare, Automobiles and Online Games etc. Golden Technology is its focused
+            foray<br>
+            into developing unique and innovative game content for the Indian and International Markets. <br><br>
+
+            Golden Technology prides itself as a straightforward company with a direct and simple approach towards
+            complex problems. <br>
+            The business is built on integrity, knowledge and professionalism, enabling partners and stakeholders alike
+            to put their trust.<br>
+            Golden Technology has appointed excellent human capital. It consists of Gen-Y Techies and offers fantastic
+            opportunity,<br>
+            open work ecosystem combined with visible career growth opportunities. The company infused momentous effort
+            for right <br> candidates
+            and a long term vision to create breath-taking game experience. <br><br>
+            Globally Technology is a part of an entertainment matrix but has experienced dramatic trend change at
+            regular intervals,like <br>
+            penetration of smart devices is reflective of mobile games and mobile friendly User Interface (UI). Golden
+            Technology<br> understands
+            this challenges and expects to deliver under such environments.
+        </p>
+        <img src="./img/golden.jpeg" style="padding-left: 25px;" height="350px" weight="350px" />
+    </div>
+
+
+
+
+
+    <!-- modal -->
+    <!-- Button trigger modal -->
+
+
+    <!-- Login Modal -->
+    <div class="modal fade" id="modal_login" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Login</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+
+                        <p>Email: </p>
+                        <input type="email" id="email" class="f_style" placeholder="Email or PhoneNumber" required>
+                        <p>Password: </p>
+                        <input type="password" id="email" placeholder="Password" class="f_style" required>
+                        <h6> Not Registered? <a class="signup" data-toggle="modal"
+                                data-target="#modal_signup">Sign-up</a></h6>
+                        <center><input type="submit" class="sub" value="Login"></center>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Sign-up modal -->
+
+    <div class="modal fade" id="modal_signup" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Sign-Up</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p> E-mail:</p>
+                    <input type="email" id="email" class="f_style" placeholder="eg: mail@mailserver.com" required>
+                    <p>PhoneNumber</p>
+                    <input type="text" id="PhoneNumber" class="f_style" placeholder="eg: 9876543210" required>
+                    <p>Date of Birth: </p>
+                    <input type="date" id="dob" class="f_style" placeholder="eg: 9876543210" required>
+
+                    <p>Password:</p>
+                    <input type="password" id="email" class="f_style" placeholder="eg: asdf@#?143$%^" required>
+                    <p>Confirm Password:</p>
+                    <input type="password" id="password" class="f_style" placeholder="Confirm password" required>
+                    <h6> Not Registered? <a class="signup" data-toggle="modal" data-target="#modal_signup">Sign-Up</a>
+                    </h6>
+                    <center><input type="submit" class="sub" value="Login"></center>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+
+
+    <footer>
+        <p> ©2020 Golden Games</p>
+       <div align="end" ;>
+            <img src="./img/facebook.png" height="25px" width="25px" style="margin-right: 5px;" href="https://www.facebook.com"/>
+            <img src="./img/twitter.png" height="25px" width="25px" style="margin-right: 5px;" href="https://www.twitter.com"/>
+            <img src="./img/linkedin.png" height="25px" width="25px" style="margin-right: 5px;" href="https://www.linkedin.com/company/golden-technology-international-private-liminted" />
+            <img src="./img/phone.png" height="25px" width="25px" style="margin-right: 5px;" href="tel:+011-41433338" />
+        </div>
+    </footer>
+
+
+
+
+    
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+
+</html>
